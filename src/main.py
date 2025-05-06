@@ -21,8 +21,8 @@ def main(page: ft.Page):
 
     page.add(
         ft.OutlinedButton(
-            "Check Microphone Permission",
-            data=ft.PermissionType.MICROPHONE,
+            "Check Video Permission",
+            data=ft.PermissionType.VIDEOS,
             on_click=check_permission,
         ),
         ft.OutlinedButton(
